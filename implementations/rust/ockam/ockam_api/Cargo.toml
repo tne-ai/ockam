@@ -92,7 +92,7 @@ opentelemetry-appender-tracing = { version = "0.27" }
 opentelemetry-otlp = { version = "0.27", features = ["logs", "metrics", "trace", "grpc-tonic", "gzip-tonic", "tls", "tls-roots", "hyper-client"], default-features = false }
 opentelemetry-proto = { version = "0.27", features = ["full"] }
 opentelemetry-semantic-conventions = { version = "0.28", features = ["semconv_experimental"] }
-opentelemetry_sdk = { version = "0.27", features = ["logs", "metrics", "trace", "rt-tokio", "rt-tokio-current-thread", "testing"], default-features = false }
+opentelemetry_sdk = { version = "0.32", features = ["logs", "metrics", "trace", "rt-tokio", "rt-tokio-current-thread", "testing"], default-features = false }
 petname = { version = "2.0.2", default-features = false, features = ["default-rng", "default-words"] }
 r3bl_rs_utils_core = { version = "0.9", optional = true }
 r3bl_tui = { version = "0.5", optional = true }
@@ -175,7 +175,7 @@ multimap = "0.10.0"
 ockam_macros = { path = "../ockam_macros", features = ["std"], version = "^0.39.0" }
 ockam_transport_core = { path = "../ockam_transport_core", version = "^0.104.0" }
 ockam_transport_tcp = { path = "../ockam_transport_tcp", default-features = false, version = "^0.140.0" }
-opentelemetry_sdk = { version = "0.27", features = ["logs", "metrics", "trace", "rt-tokio", "testing"], default-features = false }
+opentelemetry_sdk = { version = "0.32", features = ["logs", "metrics", "trace", "rt-tokio", "testing"], default-features = false }
 quickcheck = "1.0.1"
 quickcheck_macros = "1.0.0"
 serial_test = "3.0.0"
